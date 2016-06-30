@@ -3,7 +3,8 @@
 
   angular
   .module('cuddly-guide', [
-    'cuddly-guide.dependencies'
+    'cuddly-guide.dependencies',
+    'cuddly-guide.home'
     ])
 
 })();

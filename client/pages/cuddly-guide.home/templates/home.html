@@ -1,0 +1,8 @@
+<h1>Welcome!</h1>
+
+<form name="userForm" ng-submit="vm.sendData()">
+  <input type="text" name="name" ng-model="vm.todo.name" required>
+  <input type="date" name="date" ng-model="vm.todo.date">
+  <textarea type="text" name="task" rows="8" cols="40" ng-model="vm.todo.task"></textarea>
+  <button type="submit">Submit</button>
+</form>
