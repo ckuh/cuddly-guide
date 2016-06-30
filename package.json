@@ -1,0 +1,24 @@
+{
+  "name": "cuddly-guide",
+  "version": "1.0.0",
+  "description": "MVP Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckuh/cuddly-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckuh/cuddly-guide/issues"
+  },
+  "homepage": "https://github.com/ckuh/cuddly-guide#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.72.0"
+  }
+}
